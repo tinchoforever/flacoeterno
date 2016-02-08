@@ -1,0 +1,23 @@
+{
+  "name": "flacoeterno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "letras.com.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinchoforever/flacoeterno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinchoforever/flacoeterno/issues"
+  },
+  "homepage": "https://github.com/tinchoforever/flacoeterno#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "node-scrapy": "^0.2.2"
+  }
+}

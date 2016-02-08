@@ -5,7 +5,7 @@ class BlogSpider(scrapy.Spider):
     start_urls = ['http://www.rock.com.ar/discos/2/2385.shtml']
 
     def parse(self, response):
-        for url in response.css('a::attr("href")').extract():
+        for url in response.css('div.div-top table a::attr("href")').extract():
         	yield scrapy.Request(response.urljoin(url), self.parse_titles)
         	
 
